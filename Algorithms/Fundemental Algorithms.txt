@@ -4,7 +4,7 @@ Fundemental Algorithms
   1 - Linear Search Algorithm - Completed with Cheat Sheet
   2 - Binary Search Algorithm - Completed with Cheat Sheet
  Sorting Algorithms:
-  3 - Bubble Sort Algorithm
+  3 - Bubble Sort Algorithm - Completed with Cheat Sheet
   4 - Insertion Sort Algorithm - Completed with Cheat Sheet
   5 - Selection Sort Algorithm - Completed with Cheat Sheet
   6 - Merge Sort Algorithm - Completed with Cheat Sheet
