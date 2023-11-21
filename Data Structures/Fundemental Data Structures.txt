@@ -1,0 +1,16 @@
+Fundemental Data Structures
+-----------------------------------------
+ Linear Data Structures:
+   # 1: Stacks - Completed with Cheat Sheet
+   # 2: Queues - Completed with Cheat Sheet
+   # 3: Hash Tables - Completed with Cheat Sheet
+   # 4: Linked Lists - Completed with Cheat Sheet
+     4-A: Singly-Linked List - Completed with Cheat Sheet
+     4-B: Doubly-Linked List - Completed with Cheat Sheet
+ Non-Linear Data Structures:
+   # 5: Trees
+     5-A: Binary Search Trees - Completed with Cheat Sheet
+     5-B: AVL Trees
+     5-C: Heaps
+   # 6: Graphs
+   
