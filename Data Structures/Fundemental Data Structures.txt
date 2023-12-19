@@ -10,7 +10,7 @@ Fundemental Data Structures
  Non-Linear Data Structures:
    # 5: Trees
      5-A: Binary Search Trees - Completed with Cheat Sheet
-     5-B: AVL Trees
+     5-B: AVL Trees - Completed with Cheat Sheet
      5-C: Heaps
    # 6: Graphs
    
