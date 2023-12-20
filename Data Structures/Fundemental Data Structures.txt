@@ -11,6 +11,6 @@ Fundemental Data Structures
    # 5: Trees
      5-A: Binary Search Trees - Completed with Cheat Sheet
      5-B: AVL Trees - Completed with Cheat Sheet
-     5-C: Heaps
+     5-C: Heaps - Completed with Cheat Sheet
    # 6: Graphs
    
