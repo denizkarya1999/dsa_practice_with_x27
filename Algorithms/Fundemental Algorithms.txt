@@ -10,5 +10,5 @@ Fundemental Algorithms
   6 - Merge Sort Algorithm - Completed with Cheat Sheet
   7 - Quick Sort Algorithm - Completed with Cheat Sheet
   8 - Heap Sort Algorithm - Completed with Cheat Sheet
-  9 - Bucket Sort Algorithm
+  9 - Bucket Sort Algorithm - Completed with Cheat Sheet
   10 - Radix Sort Algorithm 
