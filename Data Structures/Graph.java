@@ -1,4 +1,6 @@
 import java.util.*;
+import java.util.Queue;
+import java.util.LinkedList;
 
 class Graph {
     private Map<Integer, List<Integer>> adjList;
@@ -33,6 +35,27 @@ class Graph {
         adjList.remove(vertex);
     }
 
+    // Breadth First Search
+    public void BFS(int startVertex) {
+        Set<Integer> visited = new HashSet<>();
+        Queue<Integer> queue = new LinkedList<>();
+
+        visited.add(startVertex);
+        queue.offer(startVertex);
+
+        while (!queue.isEmpty()) {
+            int currentVertex = queue.poll();
+            System.out.print(currentVertex + " ");
+
+            for (int neighbor : adjList.getOrDefault(currentVertex, new ArrayList<>())) {
+                if (!visited.contains(neighbor)) {
+                    visited.add(neighbor);
+                    queue.offer(neighbor);
+                }
+            }
+        }
+    }
+
     // Print the graph
     public void printGraph() {
         for (Map.Entry<Integer, List<Integer>> entry : adjList.entrySet()) {
@@ -62,6 +85,11 @@ class Graph {
         // Print the graph
         System.out.println("Graph:");
         graph.printGraph();
+
+        // Perform BFS starting from vertex 1
+        System.out.println("\nBFS Traversal starting from vertex 1:");
+        graph.BFS(1);
+        System.out.println();
 
         // Remove an edge
         graph.removeEdge(1, 3);
