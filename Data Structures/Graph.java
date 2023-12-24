@@ -56,6 +56,23 @@ class Graph {
         }
     }
 
+    // Depth First Search
+    public void DFS(int startVertex) {
+        Set<Integer> visited = new HashSet<>();
+        DFSUtil(startVertex, visited);
+    }
+
+    private void DFSUtil(int currentVertex, Set<Integer> visited) {
+        visited.add(currentVertex);
+        System.out.print(currentVertex + " ");
+
+        for (int neighbor : adjList.getOrDefault(currentVertex, new ArrayList<>())) {
+            if (!visited.contains(neighbor)) {
+                DFSUtil(neighbor, visited);
+            }
+        }
+    }
+
     // Print the graph
     public void printGraph() {
         for (Map.Entry<Integer, List<Integer>> entry : adjList.entrySet()) {
@@ -89,6 +106,11 @@ class Graph {
         // Perform BFS starting from vertex 1
         System.out.println("\nBFS Traversal starting from vertex 1:");
         graph.BFS(1);
+        System.out.println();
+
+        // Perform DFS starting from vertex 1
+        System.out.println("\nDFS Traversal starting from vertex 1:");
+        graph.DFS(1);
         System.out.println();
 
         // Remove an edge
