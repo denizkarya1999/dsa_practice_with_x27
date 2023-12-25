@@ -4,7 +4,7 @@ Fundemental Data Structures
    # 1: Stacks - Completed with Cheat Sheet
    # 2: Queues - Completed with Cheat Sheet
      2-A: Queues ADT - Completed with Cheat Sheet
-     2-B: Priority Queues
+     2-B: Priority Queues - Completed with Cheat Sheet
    # 3: Hash Tables - Completed with Cheat Sheet
    # 4: Linked Lists - Completed with Cheat Sheet
      4-A: Singly-Linked List - Completed with Cheat Sheet
