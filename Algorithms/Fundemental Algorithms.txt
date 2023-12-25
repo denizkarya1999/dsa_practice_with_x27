@@ -13,6 +13,6 @@ Fundemental Algorithms
   9 - Bucket Sort Algorithm - Completed with Cheat Sheet
   10 - Radix Sort Algorithm - Completed with Cheat Sheet
  Graph related Algorithms:
-  11- Breadth First Search for Graphs - Completed with Cheat Sheet
-  12- Depth First Search For Graphs - Completed with Cheat Sheet
-  13- Dijkstra's Algorithm For Graphs - Completed with Cheat Sheet
+  11 - Breadth First Search for Graphs - Completed with Cheat Sheet
+  12 - Depth First Search For Graphs - Completed with Cheat Sheet
+  13 - Dijkstra's Algorithm For Graphs - Completed with Cheat Sheet
