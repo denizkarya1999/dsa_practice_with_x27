@@ -16,3 +16,6 @@ Fundemental Algorithms
   11 - Breadth First Search for Graphs - Completed with Cheat Sheet
   12 - Depth First Search For Graphs - Completed with Cheat Sheet
   13 - Dijkstra's Algorithm For Graphs - Completed with Cheat Sheet
+  14 - Bellman-Ford Algorithm For Graphs
+  15 - Floyd-Warshall Algorithm For Graphs - Completed with Cheat Sheet
+  16 - Kruskal`s Minimum Spanning Tree Algorithm For Graphs
